@@ -15,10 +15,6 @@ const Producto = ({producto, productos, changuito, agregarProducto}) => {
         //console.log(changuito);
 
     };
-    const eliminarProductoDelChanguito = (id) => {
-        const nuevoCarrito = changuito.filter((item) => item.id !== id);
-        agregarProducto(nuevoCarrito);
-      };
     
     return (  
 

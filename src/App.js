@@ -9,7 +9,7 @@ import { Container,Row,Col } from 'react-bootstrap';
 
 function App() {
   //creamos nuestra lista de productos
-  const[productos, guardarProductos]= useState([
+  const[productos]= useState([
     {id:0, articulo:"Jean de dama", precio:4600},
     {id:1, articulo:"Wide negro estampado", precio:7000},
     {id:2, articulo:"Jean elastizado chupín", precio:6500},

@@ -24,7 +24,7 @@ const Header = () => {
             <Nav className="custom-text-color">
     
               <Nav.Link href="#">
-                <a className="navbar-brand" href="#">
+                
                   <Image
                     src="https://as1.ftcdn.net/v2/jpg/03/25/73/68/1000_F_325736897_lyouuiCkWI59SZAPGPLZ5OWQjw2Gw4qY.jpg"
                     roundedCircle
@@ -32,7 +32,7 @@ const Header = () => {
                     width="20px"
                     height="20px"
                   />
-                </a>
+                
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
